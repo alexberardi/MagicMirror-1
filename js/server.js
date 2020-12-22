@@ -15,7 +15,7 @@ var Log = require("./logger.js");
 var Utils = require("./utils.js");
 
 var Server = function (config, callback) {
-	var port = config.port;
+	var port = process.env.PORT || config.port;
 	if (process.env.MM_PORT) {
 		port = process.env.MM_PORT;
 	}
