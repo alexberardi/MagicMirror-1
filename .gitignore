@@ -65,8 +65,6 @@ Temporary Items
 # Don't ignore the node_helper core module.
 
 
-# Ignore changes to the custom css files.
-/css/custom.css
 
 # Vim
 ## swap

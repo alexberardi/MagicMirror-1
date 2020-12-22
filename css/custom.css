@@ -1,0 +1,11 @@
+body { 
+	color: #fff; 
+}
+.region.below {
+	width: 100%;
+	text-align: center;
+	bottom: 100%;
+}
+.normal { 
+color: #fff;
+}
